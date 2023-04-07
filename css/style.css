@@ -199,3 +199,39 @@ body {
  #about-location p {
     line-height: 1.5em ;
  }
+
+ /*Event details container*/
+
+#detail {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+    padding: 0 5vw;
+}
+
+.detail img {
+    width: 50%;
+}
+
+#detail-1 h3 {
+    font-size: 3.5em;
+    font-weight: bolder;
+}
+
+.detail-description h3 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    
+}
+
+.detail-description {
+    margin: 0 auto;
+}
+
